@@ -26,12 +26,12 @@ Open a terminal or command prompt and run:
 pip install -r requirements.txt
 ```
 
-### Step 3: Download DeepSeek Models (Optional)
+### Step 3: Download DeepSeek Models
 
 You can pre-download models before running the app:
 
 ```bash
-ollama pull deepseek-coder
+ollama pull deepseek-coder 
 ollama pull deepseek-r1:1.5b
 ```
 
@@ -171,7 +171,7 @@ class StreamHandler(StreamingStdOutCallbackHandler):
     def __init__(self, container):
         self.container = container
         self.text = ""
-      
+    
     def on_llm_new_token(self, token: str, **kwargs):
         self.text += token
         self.container.markdown(self.text)
