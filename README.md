@@ -52,11 +52,14 @@ ollama start
 
 ### Starting the Chat Application
 
-1. Open a new terminal or command prompt window
-2. Navigate to the project directory:
+1. Open a new terminal or command prompt window, Open a folder, Then clone the repository using
+```bash
+git clone https://github.com/AI-Community-SBU/DeepSeek-ChatApp
+```
+3. Navigate to the project directory:
 
 ```bash
-cd "c:\Users\ruthv\OneDrive\Desktop\AI Community\DeepSeekCode"
+cd "c:\Users\ruthv\OneDrive\Desktop\AI Community\DeepSeek-ChatApp" # Example
 ```
 
 3. Start the Streamlit app:
